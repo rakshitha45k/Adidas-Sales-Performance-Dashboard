@@ -50,8 +50,6 @@ Navigate to the Dashboard sheet.
 Use the Month slicer on the right side to filter data by specific months.
 All charts update dynamically based on the selected filter.
 
-output
-<img width="1549" height="640" alt="Screenshot 2026-02-13 155240" src="https://github.com/user-attachments/assets/742d726f-566f-4048-8aee-dfefcb94bc6f" />
 
  Notes
 
