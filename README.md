@@ -1,61 +1,188 @@
-Adidas Sales Performance Dashboard
+****Adidas Sales Performance Dashboard
 <img width="1549" height="640" alt="Screenshot 2026-02-13 155240" src="https://github.com/user-attachments/assets/55da92b3-03b9-40b7-9ad6-c284a00b6316" />
 
-An interactive Excel-based sales analytics dashboard for Adidas, visualizing revenue trends, product performance, and regional distribution across global markets in 2024.
- Dashboard Overview
-The dashboard provides a comprehensive view of Adidas sales data through dynamic charts and KPI cards, with month-based filtering for time-period analysis.
-Key Metrics (2024)
-MetricValueTotal Revenue₹5,073,981,028Total Units Sold762,533Average Discount14.985%
+# Adidas Sales Performance Dashboard
 
-📁 Project Structure
-adidas_sales/
-│
-├── adidas_sales.xlsx          # Main workbook with raw data + dashboard
-│   ├── Sheet1                 # Raw transaction data
-│   └── Dashboard              # Pivot-based interactive dashboard
-│
-└── README.md                  # Project documentation
+## Executive Summary
 
-📋 Dataset
-The dataset (Sheet1) contains individual sales transactions with the following columns:
-ColumnDescriptionProduct_IDUnique identifier for each transaction (e.g., A0001)Product_NameName of the product (e.g., Gym Bag, Ultraboost, Samba)CategoryProduct category — Accessories, Apparel, or ShoesPrice_INRUnit price in Indian RupeesUnits_SoldNumber of units sold in the transactionDiscount_%Discount applied (ranging from 5% to 25%)RevenueNet revenue after discountRegionSales region (Australia, Canada, Germany, India, UK, USA)Sales_DateDate of transaction (YYYY-MM-DD format)MonthAbbreviated month name (Jan–Dec)
+The **Adidas Sales Performance Dashboard** is a business analytics project developed using **Microsoft Excel** to analyze and visualize Adidas sales data across different categories, products, regions, and months.
 
-📈 Dashboard Visualizations
-1. Monthly Sales Trend (Line Chart)
-Tracks total revenue month-over-month from January to December 2024. Helps identify seasonal peaks and dips across the year.
-2. Category Wise Revenue (Bar Chart)
-Compares total revenue across the three product categories:
+The dashboard provides interactive insights into revenue trends, product performance, category-wise sales, and regional revenue distribution. This project demonstrates how Excel can be used as a powerful business intelligence tool for data analysis and reporting.
 
-Accessories — ₹1,825,246,783
-Apparel — ₹1,675,386,692
-Shoes — ₹1,573,347,553
+---
 
-3. Top 10 Products (Horizontal Bar Chart)
-Ranks the top-performing products by revenue. Highlights include Training Tank, Headband, and Gym Bag as top earners.
-4. Region Wise Revenue (Pie Chart)
-Shows revenue distribution across six global regions: Australia, Canada, Germany, India, UK, and USA.
-5. Month Slicer (Interactive Filter)
-A panel on the right allows filtering all charts by selecting one or more months (Jan–Dec), enabling focused time-period analysis.
+# Business Problem
 
-Tools Used
+Retail businesses generate large amounts of sales data, making it difficult to monitor performance and identify trends through traditional spreadsheets.
 
-Microsoft Excel — PivotTables, PivotCharts, Slicers, and conditional formatting
-Data Source — Synthetic Adidas sales transaction data (2024)
+The purpose of this project is to create an interactive dashboard that:
 
+* Simplifies sales analysis
+* Tracks revenue trends
+* Identifies top-performing products
+* Supports data-driven business decisions
 
-How to Use
+---
 
-Open adidas_sales.xlsx in Microsoft Excel (2016 or later recommended).
-Navigate to the Dashboard sheet.
-Use the Month slicer on the right side to filter data by specific months.
-All charts update dynamically based on the selected filter.
+# Project Objectives
 
+* Analyze Adidas sales performance using Excel
+* Monitor monthly revenue trends
+* Compare category-wise sales performance
+* Identify top-selling products
+* Analyze regional revenue contribution
+* Develop an interactive and user-friendly dashboard
 
- Notes
+---
 
-All prices and revenues are in Indian Rupees (INR).
-The dataset covers the full calendar year 2024.
-Regions covered: Australia, Canada, Germany, India, UK, USA.
-Product categories: Accessories, Apparel, Shoes.
-Discounts range from 5% to 25% across transactions.
-ShareContentadidas_sales_ (1).xlsxxlsx
+# Tools & Technologies Used
+
+| Technology      | Purpose               |
+| --------------- | --------------------- |
+| Microsoft Excel | Dashboard Development |
+| Pivot Tables    | Data Analysis         |
+| Pivot Charts    | Visualization         |
+| Slicers         | Interactive Filtering |
+| Data Cleaning   | Data Preparation      |
+
+---
+
+# Dataset Description
+
+The dataset contains Adidas sales information including:
+
+* Revenue
+* Product Categories
+* Product Names
+* Units Sold
+* Discount Percentage
+* Region-wise Sales
+* Monthly Sales Data
+
+---
+
+# Dashboard Components
+
+## KPI Indicators
+
+The dashboard highlights key performance metrics such as:
+
+* Total Revenue
+* Total Units Sold
+* Average Discount
+
+---
+
+## Visualizations Included
+
+### Monthly Sales Trend
+
+A line chart representing monthly revenue growth and sales fluctuations.
+
+### Category Wise Revenue
+
+Bar chart analysis of:
+
+* Accessories
+* Apparel
+* Shoes
+
+### Top 10 Products
+
+Horizontal bar chart showing best-performing Adidas products based on revenue.
+
+### Region Wise Revenue
+
+Pie chart visualizing revenue contribution across different regions.
+
+### Interactive Slicer
+
+Month-wise slicer added for dynamic dashboard filtering and analysis.
+
+---
+
+# Key Business Insights
+
+* Accessories generated the highest revenue among product categories.
+* Revenue showed fluctuations across different months.
+* Certain products consistently performed better than others.
+* Regional sales distribution indicates balanced market performance.
+* Discount strategies impacted overall sales trends and revenue generation.
+
+---
+
+# Project Workflow
+
+## Step 1 – Data Collection
+
+Sales data was collected and organized in Microsoft Excel.
+
+## Step 2 – Data Cleaning
+
+The dataset was cleaned by:
+
+* Removing duplicates
+* Handling missing values
+* Formatting data properly
+
+## Step 3 – Data Analysis
+
+Pivot tables were used to summarize and analyze the sales data.
+
+## Step 4 – Dashboard Development
+
+Interactive charts, KPI cards, and slicers were created using Excel.
+
+## Step 5 – Business Insights
+
+Sales trends and business performance insights were generated through visualization.
+
+---
+
+# Skills Demonstrated
+
+* Data Analysis
+* Sales Analytics
+* Dashboard Design
+* Business Intelligence
+* Data Visualization
+* Excel Reporting
+* Pivot Table Analysis
+* Analytical Thinking
+
+---
+
+# Business Impact
+
+This dashboard helps businesses monitor sales performance efficiently through interactive reporting and visual analytics. It enables better understanding of product performance, customer trends, and revenue distribution for improved decision-making.
+
+---
+
+# Future Enhancements
+
+Future improvements for this project may include:
+
+* Real-time sales data integration
+* Predictive sales forecasting
+* Customer segmentation analysis
+* Inventory management insights
+* Advanced Power BI migration
+
+---
+
+# Conclusion
+
+The Adidas Sales Performance Dashboard successfully demonstrates how Microsoft Excel can be utilized for advanced business analytics and reporting. The project converts raw sales data into meaningful visual insights that support strategic business analysis and performance monitoring.
+
+---
+
+# Author
+
+Rakshithaa
+BSc Data Science Student
+
+---
+
+# Project Type
+
+Sales Analytics | Business Intelligence | Excel Dashboard
