@@ -1,4 +1,6 @@
 Adidas Sales Performance Dashboard
+<img width="1549" height="640" alt="Screenshot 2026-02-13 155240" src="https://github.com/user-attachments/assets/55da92b3-03b9-40b7-9ad6-c284a00b6316" />
+
 An interactive Excel-based sales analytics dashboard for Adidas, visualizing revenue trends, product performance, and regional distribution across global markets in 2024.
  Dashboard Overview
 The dashboard provides a comprehensive view of Adidas sales data through dynamic charts and KPI cards, with month-based filtering for time-period analysis.
